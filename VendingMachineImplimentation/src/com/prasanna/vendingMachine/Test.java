@@ -20,7 +20,7 @@ public class Test {
 		vm.insertMoney(Money.TWENTY);
 		
 		Dispensor<Item, List<Money>> dispensor = vm.collectItemAndGetChange();
-		System.out.println(dispensor);
+
 		
 		Item item = dispensor.getItem();
 		List<Money> change = dispensor.getChange();
